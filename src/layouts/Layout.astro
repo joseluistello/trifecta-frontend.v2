@@ -27,7 +27,19 @@ const makeTitle = title
 <html lang="es">
 
   <head>
-    <Googleanalytics />
+    <script 
+    type="text/partytown"
+    async 
+    src="https://www.googletagmanager.com/gtag/js?id=G-EQKR83K7E0"
+    ></script>
+
+    <script type="text/partytown">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-EQKR83K7E0');
+    </script>
     <meta charset="UTF-8" />
     <meta property="twitter:image" content="https://opengraphs.s3.us-east-2.amazonaws.com/opengraph.jpg">
     <meta property="twitter:title" content="Trifecta">
