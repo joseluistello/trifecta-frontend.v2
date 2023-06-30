@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /
+Allow: /api/og/*
 
 Sitemap: http://trifecta,fyi/sitemap-index.xml
