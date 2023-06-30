@@ -6,17 +6,14 @@ import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 
 const menuitems = [
   {
-    title: "Features",
+    title: "Recursos",
     path: "#",
     children: [
-      { title: "Action", path: "/" },
-      { title: "Another action", path: "#" },
-      { title: "Dropdown Submenu", path: "#" },
-      { title: "404 Page", path: "/404" },
+      { title: "Documentacion", path: "https://trifecta-documentacion.vercel.app/" },
     ],
   },
   {
-    title: "Pricing",
+    title: "Precio",
     path: "/pricing",
   },
   {
@@ -28,7 +25,7 @@ const menuitems = [
     path: "/blog",
   },
   {
-    title: "Contact",
+    title: "Contacto",
     path: "/contact",
   },
 ];
@@ -39,9 +36,7 @@ const menuitems = [
     <Astronav>
       <div class="flex w-full lg:w-auto items-center justify-between">
         <a href="/" class="text-lg"
-          ><span class="font-bold text-slate-800">Astro</span><span
-            class="text-slate-500">ship</span
-          >
+          ><span class="ml-3 text-xl text-black">Trifecta</span>
         </a>
         <div class="block lg:hidden">
           <MenuIcon class="w-4 h-4 text-gray-800" />
@@ -74,15 +69,13 @@ const menuitems = [
           }
         </ul>
         <div class="lg:hidden flex items-center mt-3 gap-4">
-          <Link href="#" style="muted" block size="md">Log in</Link>
-          <Link href="#" size="md" block>Sign up</Link>
+        <a href="https://ai.trifecta.fyi/" target="_blank" class="rounded text-center transition focus-visible:ring-2 ring-offset-2 ring-gray-200 w-full px-4 py-2 bg-black text-white hover:bg-gray-800 border-2 border-transparent">Registrate</a>
         </div>
       </MenuItems>
     </Astronav>
     <div>
       <div class="hidden lg:flex items-center gap-4">
-        <a href="#">Log in</a>
-        <Link href="#" size="md">Sign up</Link>
+        <a href="https://ai.trifecta.fyi/" target="_blank" class="rounded text-center transition focus-visible:ring-2 ring-offset-2 ring-gray-200 px-4 py-2 bg-black text-white hover:bg-gray-800 border-2 border-transparent">Registrate</a>
       </div>
     </div>
   </header>

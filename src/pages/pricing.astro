@@ -7,23 +7,20 @@ import Pricing from "@components/pricing.astro";
 const pricing = [
   {
     name: "Personal",
-    price: "Free",
+    price: "Gratuito",
     popular: false,
     features: [
-      "Lifetime free",
-      "Up to 3 users",
-      "Unlimited Pages",
-      "Astro Sub domain",
-      "Basic Integrations",
-      "Community Support",
+      "Hasta 500 consultas por mes",
+      "Soporte de la comunidad",
+      "Acceso a documentacion",
     ],
     button: {
-      text: "Get Started",
+      text: "Empezar",
       link: "/",
     },
   },
   {
-    name: "Startup",
+    name: "Profesional",
     price: {
       monthly: "$19",
       annual: "$16",
@@ -32,32 +29,26 @@ const pricing = [
     },
     popular: true,
     features: [
-      "All Free Features",
-      "Up to 20 users",
-      "20 Custom domains",
-      "Unlimited Collaborators",
-      "Advanced Integrations",
-      "Priority Support",
+      "Hasta 5,000 consultas",
+      "Acceso a soporte por correo",
+      "Entrenamiento personalizado",
     ],
     button: {
-      text: "Get Started",
+      text: "¡Empieza ya!",
       link: "#",
     },
   },
   {
-    name: "Enterprise",
-    price: "Custom",
+    name: "Empresa",
+    price: "Adaptable",
     popular: false,
     features: [
-      "All Pro Features",
-      "Unlimited Custom domains",
-      "99.99% Uptime SLA",
-      "SAML & SSO Integration",
-      "Dedicated Account Manager",
-      "24/7 Phone Support",
+      "Todas las features",
+      "Capacitacion grupal",
+      "Sin limite de consultas",
     ],
     button: {
-      text: "Contact us",
+      text: "Contactanos",
       link: "/contact",
     },
   },
@@ -67,9 +58,9 @@ const pricing = [
 <Layout title="Pricing">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">Pricing</Fragment>
+      <Fragment slot="title">Precios</Fragment>
       <Fragment slot="desc"
-        >Simple & Predictable pricing. No Surprises.</Fragment
+        >Precios simples, sin sorpresas.</Fragment
       >
     </Sectionhead>
 

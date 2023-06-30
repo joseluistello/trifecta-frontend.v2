@@ -14,49 +14,38 @@ const publishedTeamMembers = await getCollection("team", ({ data }) => {
 <Layout title="About">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">About</Fragment>
-      <Fragment slot="desc">We are a small passionate team.</Fragment>
+      <Fragment slot="title">Sobre Trifecta</Fragment>
+      <Fragment slot="desc">Nuestra mision es empoderar al mundo con AI</Fragment>
     </Sectionhead>
 
     <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
       <h2 class="font-bold text-3xl text-gray-800">
-        Empowering the world with Astro.
+        Queremos eliminar las barreras con inteligencia artificial
       </h2>
       <p class="text-lg leading-relaxed text-slate-500">
-        We're a multi-cultural team from around the world! We come from diverse
-        backgrounds, bringing different personalities, experiences and skills to
-        the job. This is what makes our team so special.
+        En Trifecta, nuestro viaje comenzó con una realización simple pero profunda: las organizaciones estaban luchando para extraer el máximo valor de sus datos.
+        <p class="text-lg leading-relaxed text-slate-500">
+          El mundo se estaba ahogando en un océano de información, pero había una necesidad urgente de un puente, un puente que conectara el vasto potencial de los datos con ideas prácticas que pudieran impulsar el crecimiento y la innovación.
+        </p>
+        <p class="text-lg leading-relaxed text-slate-500">
+          Impulsados por la pasión de capacitar a las empresas para prosperar en la era digital, nos embarcamos en una misión para crear Trifecta, una solución revolucionaria que transformaría la forma en que las organizaciones interactúan con sus datos.
+        </p>
+        <p class="text-lg leading-relaxed text-slate-500">
+          Envisionamos un mundo donde la toma de decisiones basada en datos no fuera solo una palabra de moda, sino una realidad tangible para cada organización, independientemente de su tamaño o industria.
+        </p>
+        <p class="text-lg leading-relaxed text-slate-500">
+        Con Trifecta, buscamos derribar las barreras que obstaculizaban la exploración y el análisis de datos. Entendimos que el proceso tradicional de convertir manualmente consultas de texto en código ejecutable era engorroso, propenso a errores y consumía mucho tiempo.
       </p>
+        <p class="text-lg leading-relaxed text-slate-500">
+          Por eso desarrollamos una plataforma de transformación de consultas de vanguardia que liberaría el verdadero potencial de los datos, haciéndolos accesibles y prácticos para todos.
+        </p>
+        <h2 class="font-bold text-3xl text-gray-800">
+          ¿No sabes programar? ¡No hay ningun problema!
+        </h2>
+        <p class="text-lg leading-relaxed text-slate-500">
+          Con Trifecta, experimentarás la libertad de explorar y transformar datos sin estar limitado por obstáculos técnicos. Nuestra plataforma agiliza el proceso de transformación de consultas, ahorrándote tiempo y esfuerzo, para que puedas concentrarte en extraer ideas significativas e impulsar la innovación dentro de tu organización.
+        </p>
     </div>
-    <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
-      {
-        publishedTeamMembers.map((teamMemberEntry) => (
-          <div class="group">
-            <div class="w-full aspect-square">
-              <Picture
-                src={teamMemberEntry.data.avatar.src}
-                alt={teamMemberEntry.data.avatar.alt}
-                sizes="(max-width: 800px) 100vw, 400px"
-                widths={[200, 400]}
-                aspectRatio="1:1"
-                background="#ffffff"
-                fit="cover"
-                position="center"
-                class="w-full rounded-md rounded transition group-hover:-translate-y-1 group-hover:shadow-xl"
-              />
-            </div>
-
-            <div class="mt-4 text-center">
-              <h2 class="text-lg text-gray-800">
-                {teamMemberEntry.data.name}
-              </h2>
-              <h3 class="text-sm text-slate-500">
-                {teamMemberEntry.data.title}
-              </h3>
-            </div>
-          </div>
-        ))
-      }
     </div>
   </Container>
 </Layout>
