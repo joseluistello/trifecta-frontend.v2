@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://trifecta,fyi/sitemap-index.xml
+Sitemap: https://trifecta.fyi/sitemap-index.xml
