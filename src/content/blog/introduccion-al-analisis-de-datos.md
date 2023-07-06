@@ -1,9 +1,9 @@
 ---
 draft: false
-title: "Aumenta tu nivel de analisis con inteligencia artificial"
-snippet: "Incrementa la velocidad y calidad de tus analisis de datos con inteligencia artificial on-demand, con trifecta puedes crear graficas y modelos en cuestion de segundos."
+title: "Introducción al análisis de datos: Conceptos básicos y aplicaciones"
+snippet: "Descubre los fundamentos del análisis de datos y su aplicación en diferentes industrias. Aprende cómo extraer información valiosa y tomar decisiones informadas basadas en los datos disponibles."
 image: {
-    src: "https://images.unsplash.com/reserve/aOcWqRTfQ12uwr3wWevA_14401305508_804b300054_o.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1176&q=80",
+    src: "https://images.unsplash.com/photo-1496449903678-68ddcb189a24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmFuZG9tJTIwcGhvdG98ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
     alt: "Analisis de datos"
 }
 publishDate: "2023-03-01 13:00"
